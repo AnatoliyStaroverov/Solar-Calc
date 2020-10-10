@@ -1,0 +1,25 @@
+1. installing venv
+	
+	>> python3 -m pip install --user virtualen
+
+2. creating virtual env
+
+	>> virtualenv env
+
+3. Activate virtual env
+
+	>> source env/bin/activate 
+
+
+4. exit virtual env
+
+	>> deactivate
+
+5. update installed dependencies 
+
+	>> pip3 freeze > requirements.txt
+
+6. install dependencies 
+
+	>> pip3 install -r requirements.txt
+
